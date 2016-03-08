@@ -1,10 +1,10 @@
 {
   "name": "html-reactifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given a valid HTML snippet, this library will return a render function to render the snippet using react.",
   "main": "lib/index.js",
   "files": [
-      "lib"
+    "lib"
   ],
   "scripts": {
     "test": "karma start --single-run --reporters dots,html,junit,coverage",
