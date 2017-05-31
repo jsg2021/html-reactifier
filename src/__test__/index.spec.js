@@ -38,6 +38,6 @@ describe('html-reactifier tests', () => {
 
 		getRenderer('<div>test<w foo="bar"/></div>', self.isWidget);
 
-		expect(self.isWidget).toHaveBeenCalledWith('w', {foo: 'bar'}, jasmine.any(Object));
+		expect(self.isWidget).toHaveBeenCalledWith('w', {foo: 'bar'}, expect.any(Object));
 	});
 });

@@ -1,6 +1,6 @@
 # html-reactifier
 This allows you to have arbitrary markup AROUND your React component(s).
-
+[![Build Status](https://travis-ci.org/jsg2021/html-reactifier.svg?branch=master)](https://travis-ci.org/jsg2021/html-reactifier)
 
 # pseudo code example usage:
 
