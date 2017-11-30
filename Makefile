@@ -1,9 +1,7 @@
 .PHONY:
 	clean \
 	check \
-	test \
-	watch \
-	watch-stop
+	test
 
 
 ROOT_DIR = $(patsubst %/,%, $(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
@@ -13,7 +11,7 @@ LIB = $(SRC:src/%.js=lib/%.js)
 LIBDIR = lib
 REPORTDIR = reports
 
-all: node_modules lib
+all: node_modules check test lib
 
 node_modules: package.json
 	@rm -r $@

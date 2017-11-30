@@ -34,12 +34,12 @@
     "elementtree": "^0.1.6"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-jest": "^20.0.0",
-    "babel-preset-es2015": "^6.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.1.0",
-    "eslint": "^3.19.0",
-    "jest": "^20.0.0"
+    "eslint": "^4.12.1",
+    "jest": "^21.0.0"
   },
   "jest": {
     "collectCoverage": true,
