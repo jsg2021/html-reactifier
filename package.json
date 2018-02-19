@@ -9,7 +9,7 @@
   "scripts": {
     "test": "make test",
     "start": "make check",
-    "prepublish": "make"
+    "prepare": "make"
   },
   "repository": {
     "type": "git",
@@ -30,16 +30,14 @@
     "url": "https://github.com/jsg2021/html-reactifier/issues"
   },
   "homepage": "https://github.com/jsg2021/html-reactifier#readme",
-  "dependencies": {
-    "elementtree": "^0.1.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-jest": "^21.2.0",
+    "babel-jest": "^22.0.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.1.0",
     "eslint": "^4.12.1",
-    "jest": "^21.0.0"
+    "jest": "^22.0.0"
   },
   "jest": {
     "collectCoverage": true,
