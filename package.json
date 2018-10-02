@@ -3,13 +3,15 @@
   "version": "2.0.0",
   "description": "Given a valid HTML snippet, this library will return a render function to render the snippet using react.",
   "main": "lib/index.js",
+  "module": "src/index.js",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "scripts": {
     "test": "make test",
     "start": "make check",
-    "prepare": "make"
+    "prepack": "make"
   },
   "repository": {
     "type": "git",
@@ -32,12 +34,13 @@
   "homepage": "https://github.com/jsg2021/html-reactifier#readme",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.0.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-2": "^6.1.0",
-    "eslint": "^4.12.1",
-    "jest": "^22.0.0"
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0"
   },
   "jest": {
     "collectCoverage": true,
