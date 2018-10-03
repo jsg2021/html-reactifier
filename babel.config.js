@@ -10,6 +10,7 @@ module.exports = function (api) {
 		compact: false,
 		"presets": [
 			['@babel/preset-env', {
+				useBuiltIns: false,
 				shippedProposals: true,
 				targets: {
 					browsers: [
